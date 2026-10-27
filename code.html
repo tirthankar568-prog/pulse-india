@@ -1,0 +1,1446 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>India Now: 60-Minute Pulse</title>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Fonts: Plus Jakarta Sans & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary": "#601400",
+            "surface-variant": "#313540",
+            "outline": "#ad887e",
+            "on-primary-fixed": "#3b0900",
+            "on-surface-variant": "#e7bdb2",
+            "secondary": "#ffb59d",
+            "surface": "#0f131d",
+            "surface-tint": "#ffb5a0",
+            "primary": "#ffb5a0",
+            "on-tertiary-container": "#00311f",
+            "tertiary-container": "#00a572",
+            "on-tertiary-fixed": "#002113",
+            "surface-bright": "#353944",
+            "error": "#ffb4ab",
+            "on-error-container": "#ffdad6",
+            "surface-container-highest": "#313540",
+            "outline-variant": "#5d4038",
+            "on-primary-fixed-variant": "#872000",
+            "on-error": "#690005",
+            "on-secondary": "#5d1900",
+            "error-container": "#93000a",
+            "on-secondary-fixed": "#390c00",
+            "surface-container-low": "#171b26",
+            "tertiary": "#4edea3",
+            "secondary-fixed": "#ffdbd0",
+            "primary-fixed": "#ffdbd1",
+            "on-tertiary-fixed-variant": "#005236",
+            "surface-container": "#1c1f2a",
+            "surface-container-lowest": "#0a0e18",
+            "on-secondary-fixed-variant": "#832600",
+            "inverse-on-surface": "#2c303b",
+            "on-background": "#dfe2f1",
+            "secondary-fixed-dim": "#ffb59d",
+            "on-secondary-container": "#ffddd2",
+            "on-primary-container": "#541100",
+            "primary-container": "#ff5625",
+            "surface-container-high": "#262a35",
+            "inverse-primary": "#b12d00",
+            "tertiary-fixed": "#6ffbbe",
+            "on-surface": "#dfe2f1",
+            "surface-dim": "#0f131d",
+            "primary-fixed-dim": "#ffb5a0",
+            "inverse-surface": "#dfe2f1",
+            "tertiary-fixed-dim": "#4edea3",
+            "secondary-container": "#b83900",
+            "background": "#0f131d",
+            "on-tertiary": "#003824"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-sm": "0.5rem",
+            "margin-desktop": "2.5rem",
+            "margin": "1rem",
+            "gutter": "1rem",
+            "space-xl": "2rem",
+            "gutter-desktop": "1.5rem",
+            "space-lg": "1.25rem",
+            "space-md": "0.75rem",
+            "space-xs": "0.25rem"
+          },
+          "fontFamily": {
+            "headline-md": ["Plus Jakarta Sans", "sans-serif"],
+            "label-lg": ["Inter", "sans-serif"],
+            "body-md": ["Inter", "sans-serif"],
+            "headline-lg-mobile": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-xl-mobile": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-xl": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "label-md": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "body-lg": ["Inter", "sans-serif"],
+            "label-caps": ["Inter", "sans-serif"]
+          },
+          "fontSize": {
+            "headline-md": ["19px", { "lineHeight": "25px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "label-lg": ["13px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "body-md": ["15px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "headline-lg-mobile": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "headline-xl-mobile": ["28px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "800" }],
+            "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.025em", "fontWeight": "800" }],
+            "headline-lg": ["26px", { "lineHeight": "32px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-md": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }],
+            "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "body-lg": ["17px", { "lineHeight": "26px", "letterSpacing": "-0.005em", "fontWeight": "400" }],
+            "label-caps": ["10px", { "lineHeight": "12px", "letterSpacing": "0.08em", "fontWeight": "700" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-family: 'Material Symbols Outlined';
+      font-weight: normal;
+      font-style: normal;
+      font-size: 18px;
+      line-height: 1;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-feature-settings: 'liga';
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    @keyframes pulse-ring {
+      0% { transform: scale(0.9); opacity: 0.8; }
+      50% { transform: scale(1.4); opacity: 0.2; }
+      100% { transform: scale(0.9); opacity: 0.8; }
+    }
+    .ping-ring {
+      animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .ticker-track {
+      display: inline-flex;
+      animation: marquee 24s linear infinite;
+    }
+    .ticker-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes wave-bounce {
+      0%, 100% { transform: scaleY(0.4); }
+      50% { transform: scaleY(1.3); }
+    }
+    .wave-animating {
+      transform-origin: bottom;
+      animation: wave-bounce 0.65s ease-in-out infinite alternate;
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased font-body-sm text-body-sm min-h-screen pb-24 selection:bg-primary-container selection:text-on-primary">
+<!-- TOAST NOTIFICATION CONTAINER -->
+<div class="fixed top-20 left-1/2 -translate-x-1/2 z-[100] flex flex-col items-center gap-2 pointer-events-none w-11/12 max-w-sm" id="toast-container"></div>
+<!-- ================= TOP APP BAR ================= -->
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/95 backdrop-blur-md border-b border-surface-variant/80">
+<div class="max-w-md mx-auto px-margin py-2.5 flex items-center justify-between">
+<!-- Brand / Title -->
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-primary-container/20 border border-primary-container/40 flex items-center justify-center text-primary-container shrink-0">
+<span class="material-symbols-outlined text-[19px]">sensors</span>
+</div>
+<div class="flex items-center gap-1.5">
+<h1 class="text-headline-md font-headline-md font-extrabold text-on-surface tracking-tight leading-none" id="app-title">
+          India Pulse
+        </h1>
+<span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-tertiary/15 text-tertiary border border-tertiary/30 text-[9px] font-bold">
+<span class="relative flex h-1.5 w-1.5">
+<span class="ping-ring absolute inline-flex h-full w-full rounded-full bg-tertiary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-tertiary"></span>
+</span>
+          LIVE
+        </span>
+</div>
+</div>
+<!-- Actions & Trilingual Selector -->
+<div class="flex items-center gap-2">
+<!-- Trilingual Toggle Pill -->
+<div class="inline-flex items-center p-0.5 rounded-full bg-surface-container border border-surface-variant text-[11px] font-semibold" id="lang-toggle">
+<button class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-bold shadow-sm transition-all" data-lang="EN">EN</button>
+<button class="px-2 py-0.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all" data-lang="HI">हिन्दी</button>
+<button class="px-2 py-0.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all" data-lang="BN">বাংলা</button>
+</div>
+<!-- Quick Notification Alert Bell -->
+<button aria-label="Notifications" class="relative w-8 h-8 rounded-full bg-surface-container hover:bg-surface-container-high border border-surface-variant flex items-center justify-center text-on-surface-variant active:scale-95 transition-transform" id="btn-notifications">
+<span class="material-symbols-outlined text-[17px]">notifications</span>
+<span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-primary-container ring-2 ring-surface" id="notif-badge"></span>
+</button>
+</div>
+</div>
+<!-- BREAKING NEWS TICKER STRIP -->
+<div class="bg-surface-container-high/90 border-t border-surface-variant/60 py-1 overflow-hidden flex items-center text-xs">
+<div class="px-3 shrink-0 flex items-center gap-1.5 text-primary-container font-bold uppercase tracking-wider text-[10px] border-r border-surface-variant pr-2.5 z-10 bg-surface-container-high">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-primary-container"></span>
+</span>
+      BREAKING
+    </div>
+<div class="overflow-hidden whitespace-nowrap w-full">
+<div class="ticker-track text-on-surface/90 text-[11px] font-medium pl-2">
+<span class="inline-flex items-center gap-2 mr-8">
+<span class="font-bold text-tertiary">SPORTS:</span> India wins historic T20 final thriller in Barbados; celebrations erupt nationwide
+        </span>
+<span class="inline-flex items-center gap-2 mr-8">
+<span class="font-bold text-primary">INFRA:</span> ₹42,000 Cr central corridor high-speed rail network approved by Cabinet
+        </span>
+<span class="inline-flex items-center gap-2 mr-8">
+<span class="font-bold text-tertiary">ISRO:</span> NVS-02 orbital manoeuvre successfully locks atomic clock transponder
+        </span>
+<span class="inline-flex items-center gap-2 mr-8">
+<span class="font-bold text-secondary">MUMBAI:</span> Coastal Road South arm records 68,000 vehicle transits in peak rush hour
+        </span>
+<span class="inline-flex items-center gap-2 mr-8">
+<span class="font-bold text-error">WEATHER:</span> IMD issues Orange Alert for Karnataka-Goa coastlines; marine advisories active
+        </span>
+</div>
+</div>
+</div>
+</header>
+<!-- NOTIFICATIONS DROPDOWN MODAL -->
+<div class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden flex items-start justify-center pt-16 px-4" id="notif-modal">
+<div class="w-full max-w-sm bg-surface-container border border-surface-variant rounded-2xl p-4 shadow-2xl space-y-3 animate-in fade-in zoom-in-95">
+<div class="flex items-center justify-between border-b border-surface-variant/80 pb-2.5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary-container">notifications_active</span>
+<h4 class="font-headline-md font-bold text-on-surface text-sm">Real-Time Alerts (3 New)</h4>
+</div>
+<button class="p-1 text-on-surface-variant hover:text-on-surface rounded-full" id="close-notif">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<div class="space-y-2 text-xs">
+<div class="p-2.5 rounded-lg bg-surface-container-high border border-surface-variant/70 flex gap-2.5">
+<span class="material-symbols-outlined text-tertiary text-base shrink-0 mt-0.5">emoji_events</span>
+<div>
+<p class="font-bold text-on-surface">India T20 Victory Parade</p>
+<p class="text-on-surface-variant text-[11px]">Marine Drive open bus procession starts at 5:00 PM IST.</p>
+<span class="text-[10px] text-tertiary font-mono">2m ago</span>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-high border border-surface-variant/70 flex gap-2.5">
+<span class="material-symbols-outlined text-error text-base shrink-0 mt-0.5">thunderstorm</span>
+<div>
+<p class="font-bold text-on-surface">IMD Coastal Flash Warning</p>
+<p class="text-on-surface-variant text-[11px]">Karnataka-Goa high swell advisory extended for 12 hours.</p>
+<span class="text-[10px] text-error font-mono">14m ago</span>
+</div>
+</div>
+<div class="p-2.5 rounded-lg bg-surface-container-high border border-surface-variant/70 flex gap-2.5">
+<span class="material-symbols-outlined text-primary text-base shrink-0 mt-0.5">train</span>
+<div>
+<p class="font-bold text-on-surface">Vande Bharat Corridor Phase 2</p>
+<p class="text-on-surface-variant text-[11px]">Union Cabinet releases detailed station blueprints.</p>
+<span class="text-[10px] text-primary font-mono">38m ago</span>
+</div>
+</div>
+</div>
+<button class="w-full py-1.5 text-center text-xs font-semibold rounded bg-surface-variant hover:bg-surface-bright text-on-surface transition-colors" id="btn-clear-notif">
+      Mark All as Read
+    </button>
+</div>
+</div>
+<!-- CITY STORIES REEL MODAL -->
+<div class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden flex items-center justify-center p-4" id="reel-modal">
+<div class="relative w-full max-w-sm rounded-2xl bg-surface-container border border-surface-variant overflow-hidden shadow-2xl">
+<div class="relative h-96 w-full bg-surface-container-lowest">
+<img alt="City Reel" class="w-full h-full object-cover" id="reel-modal-img" src=""/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-black/60"></div>
+<!-- Top header bar in reel -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between text-white">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-primary-container p-0.5">
+<img alt="city thumb" class="w-full h-full rounded-full object-cover" id="reel-modal-thumb" src=""/>
+</div>
+<div>
+<h5 class="font-bold text-xs leading-none" id="reel-modal-city">City Update</h5>
+<span class="text-[9px] text-gray-300">Live Visual Shorts</span>
+</div>
+</div>
+<button class="w-7 h-7 rounded-full bg-black/50 backdrop-blur flex items-center justify-center hover:bg-black/80 transition-colors" id="close-reel">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Content text in reel -->
+<div class="absolute bottom-4 left-4 right-4 text-white space-y-1.5">
+<span class="px-2 py-0.5 rounded bg-primary-container text-white text-[10px] font-bold" id="reel-modal-tag">LIVE UPDATE</span>
+<h4 class="font-headline-md font-bold text-base leading-snug" id="reel-modal-headline">Visual Headline</h4>
+<p class="text-xs text-gray-200" id="reel-modal-desc">Short report update describing live ground situation in this metro city.</p>
+<div class="pt-2 flex items-center justify-between text-[11px] text-gray-400">
+<span>Updated 8m ago</span>
+<button class="flex items-center gap-1 text-white hover:text-primary transition-colors" id="reel-like-btn">
+<span class="material-symbols-outlined text-[16px]">favorite</span>
+<span id="reel-like-count">1.4k</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Container -->
+<main class="pt-[88px] max-w-md mx-auto px-margin space-y-4">
+<!-- ================= 60-SEC AUDIO HOURLY BULLETIN WIDGET ================= -->
+<section class="rounded-xl bg-gradient-to-r from-surface-container-low via-surface-container to-surface-container-high border border-surface-variant p-3 shadow-md">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-primary-container text-white flex items-center justify-center shadow">
+<span class="material-symbols-outlined text-[16px]">graphic_eq</span>
+</div>
+<div class="flex items-center gap-1.5">
+<h3 class="text-label-md font-headline-md font-bold text-on-surface" id="audio-widget-title">60-Sec Audio Flash</h3>
+<span class="px-1.5 py-0.2 rounded bg-tertiary/20 text-tertiary text-[9px] font-bold uppercase" id="audio-status-badge">Ready</span>
+</div>
+</div>
+<span class="text-label-caps text-on-surface-variant font-mono" id="audio-timer">00:42 / 01:00</span>
+</div>
+<!-- Audio Player Bar -->
+<div class="flex items-center gap-2.5 bg-surface-container-lowest/80 px-2.5 py-1.5 rounded-lg border border-surface-variant/70">
+<button class="w-7 h-7 rounded-full bg-primary-container text-white flex items-center justify-center hover:opacity-90 active:scale-95 transition-transform shrink-0" id="btn-audio-main-play" title="Play / Pause Audio Summary">
+<span class="material-symbols-outlined text-[16px]" id="audio-play-icon">play_arrow</span>
+</button>
+<!-- Simulated Dynamic Waveform -->
+<div class="flex-1 flex items-center justify-between gap-0.5 h-5 px-1" id="audio-waveform">
+<span class="waveform-bar w-1 bg-primary-container h-2 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-primary-container h-3.5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-primary-container h-5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-primary-container h-4 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-primary-container h-2.5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-primary-container h-4.5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-tertiary h-3 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-4 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-2 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-3 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-1.5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-3.5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-2.5 rounded-full transition-all"></span>
+<span class="waveform-bar w-1 bg-surface-variant h-1 rounded-full transition-all"></span>
+</div>
+<div class="flex items-center gap-1 shrink-0">
+<button class="px-2 py-0.5 text-[10px] font-bold rounded bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-colors" id="btn-audio-speed">1x</button>
+<button class="p-1 rounded text-on-surface-variant hover:text-on-surface" id="btn-audio-lang-toggle" title="Audio Language">
+<span class="material-symbols-outlined text-[15px]">translate</span>
+</button>
+</div>
+</div>
+</section>
+<!-- ================= CITY STORIES / VISUAL SHORTS CAROUSEL ================= -->
+<section class="space-y-1.5">
+<div class="flex items-center justify-between px-0.5">
+<span class="text-label-caps font-label-caps text-on-surface-variant uppercase tracking-wider" id="reels-header">Quick Visual Reels • Metro Updates</span>
+<a class="text-[11px] font-semibold text-primary hover:underline flex items-center gap-0.5 cursor-pointer" href="#view-all-reels" id="btn-see-all-reels">
+        See All <span class="material-symbols-outlined text-[12px]">chevron_right</span>
+</a>
+</div>
+<div class="flex items-center gap-3 overflow-x-auto no-scrollbar py-1" id="city-reels-container">
+<!-- Story 1: Delhi -->
+<button class="city-reel-btn flex flex-col items-center gap-1 shrink-0 group" data-city="Delhi">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-to-tr from-primary-container via-tertiary to-secondary group-hover:scale-105 transition-transform shadow">
+<div class="w-full h-full rounded-full bg-surface-container overflow-hidden border-2 border-surface">
+<img alt="Delhi" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCKJHvrHA5rQUi9UyNGZNGByVMGazWRdReWj4x5nbPpv8UdTS_wiFpU6dVEqzx_RreiUCWjZmgGBO0m--_RkW1pR6P8ilFvowArUDXUtZ9RJQQB1W_GGf5yWj4kZE1unxBTnic8llryPCYY_raYjo6gin_raIsaYDei3I2E7eox2F-mBTXcmnmnygA8hyRvvXOL3KcXdWa4FNYaMIlPmus2VqH5Z-90D8r9qqjkMXZc"/>
+</div>
+</div>
+<span class="text-[11px] font-medium text-on-surface group-hover:text-primary">Delhi</span>
+</button>
+<!-- Story 2: Mumbai -->
+<button class="city-reel-btn flex flex-col items-center gap-1 shrink-0 group" data-city="Mumbai">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-to-tr from-primary-container via-secondary to-primary group-hover:scale-105 transition-transform shadow">
+<div class="w-full h-full rounded-full bg-surface-container overflow-hidden border-2 border-surface">
+<img alt="Mumbai" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WqJwe5MJrHEHfzfvmkNNn5g51fGio2B-u1nCgX1BmK0HWRErQXy-dY7F7xOz--AH1dsPM9aSkvnx3E0tEK0vuxoxApxw-4qspx1h-Wx0OmiJlzfyTW4xOOrIaATPliU59zaj_ZLmxw2pRCnteKQlrvglJStaDUCnEtNanner5JEhdtMkldYyWpy5GmyMbZ1elHKvQN-FmCKupvyS2imsegb72UaUAqBxyjkznw4Hsk8Q"/>
+</div>
+</div>
+<span class="text-[11px] font-medium text-on-surface group-hover:text-primary">Mumbai</span>
+</button>
+<!-- Story 3: Bengaluru -->
+<button class="city-reel-btn flex flex-col items-center gap-1 shrink-0 group" data-city="Bengaluru">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-to-tr from-tertiary via-primary-container to-secondary group-hover:scale-105 transition-transform shadow">
+<div class="w-full h-full rounded-full bg-surface-container overflow-hidden border-2 border-surface">
+<img alt="Bengaluru" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATzZaAPvi-W9Imk7NvlaPNEywyluJYsBPVN2EMbNLhG-JKjU11Lu0u_fMnlIAGqEUZMEYyrroKwZopTXawQaCH95W_yrYbjCkrb8b0WRNXxOE9fu-PSLGIu8oSyNrIVZk5hd6DR4agYpZpACkqkPmjof_jEYNe8yUhmUP_1r0tZ-pzDVHeoYIF30EakRiOGXYniX2QfV_pgS-Aag9KedAWIXOJWpXxbipEcRRJ7ImS"/>
+</div>
+</div>
+<span class="text-[11px] font-medium text-on-surface group-hover:text-primary">Bengaluru</span>
+</button>
+<!-- Story 4: Kolkata -->
+<button class="city-reel-btn flex flex-col items-center gap-1 shrink-0 group" data-city="Kolkata">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-to-tr from-secondary via-primary-container to-tertiary group-hover:scale-105 transition-transform shadow">
+<div class="w-full h-full rounded-full bg-surface-container border-2 border-surface overflow-hidden">
+<img alt="Kolkata" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgl2fyfED7p2YXn7f3miNCD5ZdXWSb_MfY8rOp4ndAUME-m2wszDGPFbYT1weLm3Z6R7c5UkX9nlALxsF35BPRRj00j00VAA1enV5n5X7owjVl3AQD5ZlMhJe6LCpOxhRUHBZlXdA-FdyKgNfJx1PZXEOkzhqLQkSW1CO4iIuJTAP1Wk5GTXqppU2LcXgdO0_xhxgr14D2koaGYoGfr3_C5tw4CoAPTK3GA4AYzFTO"/>
+</div>
+</div>
+<span class="text-[11px] font-medium text-on-surface group-hover:text-primary">Kolkata</span>
+</button>
+<!-- Story 5: Chennai -->
+<button class="city-reel-btn flex flex-col items-center gap-1 shrink-0 group" data-city="Chennai">
+<div class="w-14 h-14 rounded-full p-0.5 bg-gradient-to-tr from-surface-variant via-primary to-surface-variant group-hover:scale-105 transition-transform">
+<div class="w-full h-full rounded-full bg-surface-container border-2 border-surface overflow-hidden">
+<img alt="Chennai" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzPdBbNacaQoNv-uLNvZ3aR69kIif2wJzXfZm2tJSFAFsAGXavZPF-xek5SaxSqDkXShiwqay5ijxAK4gBcJiWiU0r5i42ufwWA_OE0--hjVhm43ODOPR0G79wcakrVU76AcsOKa4SSVj5NBrWD0HJmOk7RUAElOTk8s00Kr6VV70OnCaSP6o8MlIMYIMq5HSFpAKkNpzf9aJZMmpwfUBQ15BbdOxBXhGWIjANZ3dO"/>
+</div>
+</div>
+<span class="text-[11px] font-medium text-on-surface group-hover:text-primary">Chennai</span>
+</button>
+</div>
+</section>
+<!-- ================= CATEGORY TABS & TRENDING HASHTAGS ================= -->
+<section class="space-y-2">
+<!-- Category Pills -->
+<div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 text-label-md font-label-md" id="category-pills">
+<button class="cat-pill whitespace-nowrap px-3.5 py-1.5 rounded-full bg-primary-container text-on-primary-container font-bold shadow-sm transition-all active:scale-95" data-cat="all">
+<span data-lang-text="cat-all">All Feed</span>
+</button>
+<button class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-all flex items-center gap-1 active:scale-95" data-cat="top">
+<span>⚡</span> <span data-lang-text="cat-top">Top Stories</span>
+</button>
+<button class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-all flex items-center gap-1 active:scale-95" data-cat="sports">
+<span>🏏</span> <span data-lang-text="cat-sports">Sports</span>
+</button>
+<button class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-all flex items-center gap-1 active:scale-95" data-cat="scitech">
+<span>🚀</span> <span data-lang-text="cat-scitech">Sci-Tech</span>
+</button>
+<button class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-all flex items-center gap-1 active:scale-95" data-cat="governance">
+<span>🏛️</span> <span data-lang-text="cat-gov">Governance</span>
+</button>
+<button class="cat-pill whitespace-nowrap px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-all flex items-center gap-1 active:scale-95" data-cat="weather">
+<span>🌦️</span> <span data-lang-text="cat-weather">Weather</span>
+</button>
+</div>
+<!-- Trending Hashtags Ribbon -->
+<div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar text-[11px] text-on-surface-variant" id="hashtags-ribbon">
+<span class="shrink-0 text-primary-container font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[13px]">trending_up</span> Trending:
+      </span>
+<button class="hashtag-btn whitespace-nowrap px-2 py-0.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface border border-surface-variant transition-colors" data-tag="vande">#VandeBharat</button>
+<button class="hashtag-btn whitespace-nowrap px-2 py-0.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface border border-surface-variant transition-colors" data-tag="t20">#T20Victory</button>
+<button class="hashtag-btn whitespace-nowrap px-2 py-0.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface border border-surface-variant transition-colors" data-tag="coastal">#MumbaiCoastalRoad</button>
+<button class="hashtag-btn whitespace-nowrap px-2 py-0.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface border border-surface-variant transition-colors" data-tag="isro">#ISRO</button>
+<button class="hashtag-btn whitespace-nowrap px-2 py-0.5 rounded bg-surface-container-high hover:bg-surface-bright text-on-surface border border-surface-variant transition-colors" data-tag="weather">#MonsoonAlert</button>
+</div>
+</section>
+<!-- ================= EXPANDED HIGH-FIDELITY NEWS FEED ================= -->
+<div class="space-y-4" id="articles-feed">
+<!-- CARD 1: NATIONAL / INFRASTRUCTURE (Vande Bharat Corridor) -->
+<article class="news-card rounded-xl bg-surface-container-low border border-surface-variant overflow-hidden border-l-4 border-l-primary-container shadow-md transition-all duration-300" data-categories="all top governance" data-tags="vande">
+<div class="px-space-md pt-3 pb-2 flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-primary-container text-white text-label-caps font-label-caps tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">bolt</span> BREAKING • 7m ago
+          </span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-tertiary text-label-caps font-label-caps border border-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">verified</span> PTI Wire Verified
+          </span>
+</div>
+<button class="card-more-btn text-outline hover:text-on-surface p-1" title="More options">
+<span class="material-symbols-outlined text-[18px]">more_vert</span>
+</button>
+</div>
+<div class="relative w-full h-44 overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="A sleek modern Indian high-speed Vande Bharat express train in vibrant white and navy livery accelerating over a massive Himalayan engineering steel arch bridge during dusk. The background shows dramatic mist-covered alpine mountain peaks under crisp cold atmospheric twilight. Sharp reflections on the train aerodynamic nose with high clarity editorial photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2p71ZRcdbRBHySm1O6oBcEtVpqyJjJh_qV1hgAxqMTmaR4enhvPlWZHsYuAvialskcKH-GqcdCmAJ28tYFamQYg4hodheOF6tV2RMzSQWDZzRdcBHpFDtRNEx4l4EU9CiS3lfr-NDmGiAoui-rOKpwIIdGnfUj-VNx3QGnIBTZUt3hAlBkM0Cvx1Wj42vIz_ONlN_UoaJkbQmPyE8-aejSkCq5bQlHdcd_goU9V3j"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-85"></div>
+<div class="absolute bottom-2 left-3 right-3 flex items-center justify-between text-white/90">
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-2 py-0.5 rounded">Infra Corridor Phase 2</span>
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-1.5 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[11px]">photo_camera</span> PTI Wire Photo
+          </span>
+</div>
+</div>
+<div class="p-space-md space-y-2.5">
+<div class="flex items-center gap-2">
+<span class="px-1.5 py-0.5 rounded bg-surface-container text-secondary text-[10px] font-bold">Cabinet Clearance</span>
+<span class="text-[11px] text-on-surface-variant">480km Greenfield Network</span>
+</div>
+<h2 class="card-headline text-headline-md font-headline-md text-on-surface font-bold leading-snug" data-bn="কেন্দ্রীয় মন্ত্রিসভা মধ্য ভারতকে সংযুক্তকারী দ্বিতীয় পর্যায়ের হাই-স্পিড রেল করিডোর অনুমোদন করেছে" data-en="Cabinet Approves Phase 2 High-Speed Rail Corridor Expansion Connecting Central India" data-hi="केन्द्रीय मंत्रिमंडल ने मध्य भारत को जोड़ने वाले हाई-स्पीड रेल कॉरिडोर चरण 2 को दी मंज़ूरी">
+          Cabinet Approves Phase 2 High-Speed Rail Corridor Expansion Connecting Central India
+        </h2>
+<!-- Clean Bullet Takeaways -->
+<ul class="text-body-sm text-on-surface-variant space-y-1 list-disc pl-4">
+<li>₹42,000 Crore initial outlay approved for faster inter-state passenger connectivity.</li>
+<li>Target operational launch set for Q3 2028 with 100% solar-assisted smart stations.</li>
+<li>Cuts travel time between Nagpur and Hyderabad down to 3 hours 15 minutes.</li>
+</ul>
+<div class="pt-2 flex items-center justify-between border-t border-surface-variant/60">
+<button class="btn-card-listen flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-md font-label-md border border-surface-variant active:scale-95 transition-all" data-title="Rail Corridor Flash">
+<span class="material-symbols-outlined text-primary-container text-[16px] audio-card-icon">volume_up</span>
+<span class="listen-label">Listen 35s</span>
+</button>
+<div class="flex items-center gap-1.5">
+<button class="btn-bookmark p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-article-id="1" title="Save Story">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+<button class="btn-share p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-title="Cabinet Approves Phase 2 High-Speed Rail Corridor" title="Share Article">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+<a class="btn-read-more p-1.5 rounded-full text-on-surface-variant hover:text-primary transition-colors" href="#rail-report" title="Read Full Story">
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 2: SPORTS / CRICKET (T20 Victory Celebration) -->
+<article class="news-card rounded-xl bg-surface-container-low border border-surface-variant overflow-hidden shadow-md transition-all duration-300" data-categories="all sports top" data-tags="t20">
+<div class="px-space-md pt-3 pb-2 flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-tertiary-container/30 text-tertiary text-label-caps font-label-caps border border-tertiary/40 flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">emoji_events</span> CHAMPIONS • 18m ago
+          </span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant text-label-caps font-label-caps border border-surface-variant">
+            BCCI Official / Sports Desk
+          </span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-primary-container/20 text-primary text-[10px] font-bold">
+          IND Won by 7 runs
+        </span>
+</div>
+<div class="relative w-full h-48 overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Indian cricket team victory celebration with cheering fans in stadium at night under floodlights, trophy celebration, high energy photojournalism style, high quality news photography" src="https://lh3.googleusercontent.com/aida/AEtjO1W0ffymN13-PJNgyJoCzqBWIMCJBnFQMVLMgNLWmNdhTf_otd50aKqQJ_tdAzNH2MSPxkICReFxOZk6jDZVPx3ZueMYIKWZnfQJID7bCg3MqyFudhnYTCbHqr96O4qQzFvRidRcUpPuUW8RJ8lXYOVySqKmRF_dyquZXEg_jAO-fjK_z3Kq3yu6RvGx_e4wwtnhumryAHVHlxMTdLFltSh8hdawcH9JmVnScb0aYtEo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-85"></div>
+<div class="absolute top-2.5 right-2.5">
+<span class="px-2 py-0.5 rounded-full bg-black/75 backdrop-blur-md text-tertiary text-label-caps font-label-caps border border-tertiary/40 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> HISTORIC TITLE
+          </span>
+</div>
+<div class="absolute bottom-2 left-3 right-3 flex items-center justify-between text-white/90">
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-2 py-0.5 rounded">Trophy Ceremony Live</span>
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-1.5 py-0.5 rounded">ICC Men's T20 World Cup</span>
+</div>
+</div>
+<div class="p-space-md space-y-2.5">
+<div class="flex items-center justify-between">
+<span class="text-[12px] font-bold text-tertiary uppercase tracking-wide">National Celebration</span>
+<span class="text-[11px] text-on-surface-variant">Barbados &amp; Mumbai</span>
+</div>
+<h2 class="card-headline text-headline-md font-headline-md text-on-surface font-bold leading-snug" data-bn="বিশ্বচ্যাম্পিয়ন ভারত: শ্বাসরুদ্ধকর ফাইনালে জয় ছিনিয়ে টি-টোয়েন্টি ট্রফি জয়ী টিম ইন্ডিয়া" data-en="Champions of the World: Team India Lifts T20 Trophy After Thrilling Final Defense" data-hi="विश्व विजेता भारत: रोमांचक मुकाबले में दक्षिण अफ्रीका को हरा टी20 विश्व कप जीता">
+          Champions of the World: Team India Lifts T20 Trophy After Thrilling Final Defense
+        </h2>
+<p class="text-body-sm font-body-sm text-on-surface-variant">
+          Spectacular death bowling in the final 5 overs sealed a nail-biting win. Open-top bus victory parade scheduled in Marine Drive, Mumbai tomorrow at 5 PM.
+        </p>
+<!-- Match Summary Chip -->
+<div class="p-2 rounded bg-surface-container border border-surface-variant flex items-center justify-between text-xs">
+<div class="flex items-center gap-2">
+<span class="font-bold text-on-surface">IND 176/7 (20)</span>
+<span class="text-on-surface-variant">def.</span>
+<span class="font-semibold text-on-surface-variant">SA 169/8 (20)</span>
+</div>
+<span class="text-tertiary font-bold text-[11px]">Player of Match: Virat Kohli</span>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-surface-variant/60">
+<button class="btn-card-listen flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-md font-label-md border border-surface-variant active:scale-95 transition-all" data-title="T20 Final Commentary Highlights">
+<span class="material-symbols-outlined text-primary-container text-[16px] audio-card-icon">play_circle</span>
+<span class="listen-label">Watch Highlights (2m)</span>
+</button>
+<div class="flex items-center gap-1.5">
+<button class="btn-bookmark p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-article-id="2" title="Bookmark">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+<button class="btn-share p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-title="Team India Lifts T20 World Cup Trophy" title="Share Story">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 3: URBAN INFRASTRUCTURE & METRO (Mumbai Coastal Road) -->
+<article class="news-card rounded-xl bg-surface-container-low border border-surface-variant overflow-hidden shadow-md transition-all duration-300" data-categories="all top governance" data-tags="coastal">
+<div class="px-space-md pt-3 pb-2 flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary text-label-caps font-label-caps border border-primary-container/30 flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-primary">traffic</span> Urban Mobility • 31m ago
+          </span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant text-label-caps font-label-caps border border-surface-variant">
+            BMC Transport Bureau
+          </span>
+</div>
+<span class="text-tertiary text-label-caps font-bold">Signal Free Corridor</span>
+</div>
+<div class="relative w-full h-44 overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Modern Mumbai coastal road sea link illuminated at dusk with moving vehicular light trails, futuristic urban architecture, golden hour twilight photography" src="https://lh3.googleusercontent.com/aida/AEtjO1WqJwe5MJrHEHfzfvmkNNn5g51fGio2B-u1nCgX1BmK0HWRErQXy-dY7F7xOz--AH1dsPM9aSkvnx3E0tEK0vuxoxApxw-4qspx1h-Wx0OmiJlzfyTW4xOOrIaATPliU59zaj_ZLmxw2pRCnteKQlrvglJStaDUCnEtNanner5JEhdtMkldYyWpy5GmyMbZ1elHKvQN-FmCKupvyS2imsegb72UaUAqBxyjkznw4Hsk8Q"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-85"></div>
+<div class="absolute bottom-2 left-3 right-3 flex items-center justify-between text-white/90">
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-2 py-0.5 rounded">Worli-Marine Drive Link</span>
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-1.5 py-0.5 rounded flex items-center gap-1">
+<span class="material-symbols-outlined text-[11px]">speed</span> 80 km/h Flow
+          </span>
+</div>
+</div>
+<div class="p-space-md space-y-2.5">
+<h2 class="card-headline text-headline-md font-headline-md text-on-surface font-bold leading-snug" data-bn="মুম্বই কোস্টাল রোড এখন ২৪x৭ খোলা; আন্ডারসি টানেলে যাতায়াতের সময় কমে মাত্র ১০ মিনিট" data-en="Mumbai Coastal Road Extends Operating Hours to 24x7; Twin Undersea Tunnels Cut Commute to 10 Mins" data-hi="मुंबई कोस्टल रोड अब 24x7 खुला; अंडरसी टनल से सफर सिर्फ 10 मिनट में पूरा">
+          Mumbai Coastal Road Extends Operating Hours to 24x7; Twin Undersea Tunnels Cut Commute to 10 Mins
+        </h2>
+<!-- Clean Metric Box -->
+<div class="grid grid-cols-3 gap-2 py-1">
+<div class="p-2 rounded bg-surface-container border border-surface-variant text-center">
+<div class="text-headline-md font-bold text-tertiary">70%</div>
+<div class="text-[10px] text-on-surface-variant">Time Saved</div>
+</div>
+<div class="p-2 rounded bg-surface-container border border-surface-variant text-center">
+<div class="text-headline-md font-bold text-primary">68k</div>
+<div class="text-[10px] text-on-surface-variant">Daily Cars</div>
+</div>
+<div class="p-2 rounded bg-surface-container border border-surface-variant text-center">
+<div class="text-headline-md font-bold text-secondary">34%</div>
+<div class="text-[10px] text-on-surface-variant">Fuel Reduced</div>
+</div>
+</div>
+<p class="text-body-sm font-body-sm text-on-surface-variant">
+          Municipal corporation confirms all 4 arms connecting the Bandra-Worli Sea Link are now synchronized with real-time AI signal monitoring.
+        </p>
+<div class="pt-2 flex items-center justify-between border-t border-surface-variant/60">
+<button class="btn-route-map flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-md font-label-md border border-surface-variant active:scale-95 transition-all">
+<span class="material-symbols-outlined text-primary-container text-[16px]">navigation</span>
+<span>Route Map &amp; Toll Free</span>
+</button>
+<div class="flex items-center gap-1.5">
+<button class="btn-bookmark p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-article-id="3" title="Bookmark">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+<button class="btn-share p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-title="Mumbai Coastal Road 24x7 Operations" title="Share Story">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 4: SCIENCE & SPACE (ISRO NavIC Network Milestone) -->
+<article class="news-card rounded-xl bg-surface-container-low border border-surface-variant overflow-hidden shadow-md transition-all duration-300" data-categories="all scitech top" data-tags="isro">
+<div class="px-space-md pt-3 pb-2 flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary text-label-caps font-label-caps border border-primary-container/30 flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px] text-tertiary">satellite_alt</span> ISRO Press Release • 42m ago
+          </span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant text-label-caps font-label-caps border border-surface-variant">
+            NavIC Constellation
+          </span>
+</div>
+<span class="text-tertiary text-label-caps font-bold">100% Orbit Lock</span>
+</div>
+<div class="relative w-full h-44 overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Futuristic Indian space research telemetry operations command center with mission control engineers monitoring glowing deep cyan and amber holographic orbital trajectory displays. In the center, high-tech computer consoles track a navigation satellite orbit above the Indian subcontinent. Moody cinematic high-contrast lighting with technical precision and cool color grade." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkHex3fG8fI11H7Zzx_h-fMwnHA4weO8WXWiw1B3oM44Gl8v4yjiAyLosCdf25V6L6uwEP3wvFWszyLzFH4AqxjCJU3qypyLBmD8WHnkMmCy7i1HSrggENtBRskYDL4EWj5utqylHqVwU9QCTRuRNlzf9DZJIVuW_aLCt1C0wb-qCMDdCUvI_WeNI1a2ruA64mpGL3VblK1xHvDNR0yWtpCSmlX__GRVFmHqu6q9zn"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-85"></div>
+<div class="absolute top-2.5 right-2.5">
+<span class="px-2 py-0.5 rounded-full bg-black/75 backdrop-blur-md text-tertiary text-label-caps font-label-caps border border-tertiary/40 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span> ATOMIC CLOCK SYNCED
+          </span>
+</div>
+</div>
+<div class="p-space-md space-y-2.5">
+<h2 class="card-headline text-headline-md font-headline-md text-on-surface font-bold leading-snug" data-bn="ইসরোর এনভিএস-০২ সফলভাবে কক্ষপথে প্রতিষ্ঠিত, দক্ষিণ এশিয়ায় জিপিএস নির্ভুলতা এক ধাক্কায় বৃদ্ধি" data-en="NVS-02 Navigation Satellite Successfully Locks Orbit; Expands Civilian GPS Precision Across South Asia" data-hi="इसरो का NVS-02 नेविगेशन उपग्रह सफलतापूर्वक कक्षा में स्थापित, दक्षिण एशिया में जीपीएस सटीकता बढ़ेगी">
+          NVS-02 Navigation Satellite Successfully Locks Orbit; Expands Civilian GPS Precision Across South Asia
+        </h2>
+<p class="text-body-sm font-body-sm text-on-surface-variant">
+          ISRO mission control confirms precision apogee boost completed over Sriharikota ground station. The payload introduces an indigenous Rubidium atomic frequency standard for enhanced sub-meter positioning.
+        </p>
+<div class="pt-2 flex items-center justify-between border-t border-surface-variant/60">
+<button class="btn-card-listen flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-md font-label-md border border-surface-variant active:scale-95 transition-all" data-title="ISRO NavIC Orbit Briefing">
+<span class="material-symbols-outlined text-primary-container text-[16px] audio-card-icon">volume_up</span>
+<span class="listen-label">Listen 30s</span>
+</button>
+<div class="flex items-center gap-1.5">
+<button class="btn-bookmark p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-article-id="4" title="Bookmark">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+<button class="btn-share p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-title="ISRO NVS-02 Navigation Satellite Locks Orbit" title="Share Story">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+<!-- CARD 5: WEATHER & COASTAL RADAR (IMD Alert) -->
+<article class="news-card rounded-xl bg-surface-container-low border border-surface-variant overflow-hidden shadow-md transition-all duration-300" data-categories="all weather" data-tags="weather">
+<div class="px-space-md pt-3 pb-2 flex items-center justify-between">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2 py-0.5 rounded bg-error-container/30 text-error text-label-caps font-label-caps border border-error/40 flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">thunderstorm</span> WEATHER ALERT • 51m ago
+          </span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant text-label-caps font-label-caps border border-surface-variant">
+            IMD India Meteorological Dept
+          </span>
+</div>
+<span class="material-symbols-outlined text-outline hover:text-on-surface cursor-pointer text-[18px] card-more-btn">more_vert</span>
+</div>
+<div class="relative w-full h-44 overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="High-resolution aerial satellite Doppler radar weather visualization of swirling dense emerald and saffron convective rain clouds moving toward the Western Ghats coastline of India. Scientific atmospheric meteorological mapping imagery with luminous digital precipitation density contours over deep navy blue ocean waters." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAceL1RJSLwEQO5cp9-dsikWeh8-2MJZkQmXEDEKrwlZQaIDUCHUsNfWoajs00gjpwKjiRoKtI4kAlHTL2QDmcGmctjk9eQnSDpdFWe590_rVKCPrEPXgw34II4OCYipx6tBumAZD1wyhFmzXxmDAndwTU2v-CVJQbHU9BGe_Gm0ExhxxySuVz72wr4C72ynpwj0mjOzcqHWhiVhWXGze9eqZeg3kPPxPzwhdaeIuZB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-85"></div>
+<div class="absolute bottom-2 left-3">
+<span class="px-2.5 py-0.5 rounded bg-primary-container text-white text-label-caps font-label-caps font-extrabold shadow">
+            ORANGE ALERT: HEAVY RAIN
+          </span>
+</div>
+<div class="absolute bottom-2 right-3">
+<span class="text-label-caps font-label-caps bg-black/60 backdrop-blur-sm px-2 py-0.5 rounded text-white">
+            Coastal Karnataka &amp; Goa
+          </span>
+</div>
+</div>
+<div class="p-space-md space-y-2.5">
+<h2 class="card-headline text-headline-md font-headline-md text-on-surface font-bold leading-snug" data-bn="কর্ণাটক ও গোয়া উপকূলের জন্য আইএমডির অরেঞ্জ অ্যালার্ট জারি, তুমুল বৃষ্টির পূর্বাভাস" data-en="IMD Issues Orange Alert for Coastal Karnataka and Goa as Monsoon Gusts Touch 55 km/h" data-hi="कर्नाटक और गोवा तट के लिए मौसम विभाग का ऑरेंज अलर्ट, 55 किमी/घंटा की रफ्तार से हवाएं">
+          IMD Issues Orange Alert for Coastal Karnataka and Goa as Monsoon Gusts Touch 55 km/h
+        </h2>
+<!-- Emergency Helplines Widget -->
+<div class="p-2.5 rounded-lg bg-surface-container border border-surface-variant flex items-center justify-between text-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">call</span>
+<div>
+<div class="font-bold text-on-surface">State Disaster Helpline: 1077</div>
+</div>
+</div>
+<button class="px-2.5 py-1 rounded bg-primary-container/20 text-primary hover:bg-primary-container/30 font-bold text-[11px] border border-primary-container/40 active:scale-95 transition-all" id="btn-helpline-call">
+            Call
+</button>
+</div>
+<div class="pt-2 flex items-center justify-between border-t border-surface-variant/60">
+<button class="btn-rainfall-map flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface text-label-md font-label-md border border-surface-variant active:scale-95 transition-all">
+<span class="material-symbols-outlined text-primary-container text-[16px]">radar</span>
+<span>Live Rainfall Map</span>
+</button>
+<div class="flex items-center gap-1.5">
+<button class="btn-bookmark p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-article-id="5" title="Bookmark">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+</button>
+<button class="btn-share p-1.5 rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-colors" data-title="IMD Issues Orange Alert for Karnataka and Goa" title="Share Story">
+<span class="material-symbols-outlined text-[18px]">share</span>
+</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+<!-- Saved View Container (Hidden initially) -->
+<div class="hidden space-y-3" id="saved-view">
+<div class="flex items-center justify-between p-3 rounded-xl bg-surface-container border border-surface-variant">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+<div>
+<h3 class="font-bold text-sm text-on-surface">Saved Articles</h3>
+<p class="text-[11px] text-on-surface-variant" id="saved-view-count">0 items bookmarked</p>
+</div>
+</div>
+<button class="text-xs font-semibold text-primary hover:underline flex items-center gap-0.5" id="btn-back-to-feed">
+      Back to Feed <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="py-12 text-center text-on-surface-variant space-y-2" id="saved-empty-state">
+<span class="material-symbols-outlined text-4xl text-outline opacity-60">bookmark_border</span>
+<p class="text-sm">No saved articles yet</p>
+<p class="text-xs text-outline">Click the bookmark icon on any news card to read it later offline.</p>
+</div>
+</div>
+</main>
+<!-- ================= BOTTOM NAVIGATION BAR ================= -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-margin py-space-xs pb-safe h-16 border-t border-surface-variant bg-surface-container-lowest/95 backdrop-blur-lg" id="bottom-navbar">
+<!-- Tab 1: Live Feed (ACTIVE) -->
+<button class="nav-tab flex flex-col items-center justify-center text-primary-container font-bold gap-0.5 py-1 px-3 rounded-full bg-surface-container-high/60 active:scale-95 transition-transform duration-100 ease-out" data-nav="feed">
+<span class="material-symbols-outlined text-primary-container" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="text-label-caps font-label-caps">Live Feed</span>
+</button>
+<!-- Tab 2: State Radar -->
+<button class="nav-tab flex flex-col items-center justify-center text-on-surface-variant gap-0.5 py-1 px-3 hover:text-on-surface transition-colors duration-150 active:scale-95 ease-out" data-nav="radar">
+<span class="material-symbols-outlined">radar</span>
+<span class="text-label-caps font-label-caps">State Radar</span>
+</button>
+<!-- Tab 3: Hourly Audio Recap -->
+<button class="nav-tab flex flex-col items-center justify-center text-on-surface-variant gap-0.5 py-1 px-3 hover:text-on-surface transition-colors duration-150 active:scale-95 ease-out" data-nav="audio">
+<span class="material-symbols-outlined">graphic_eq</span>
+<span class="text-label-caps font-label-caps">Audio Recap</span>
+</button>
+<!-- Tab 4: Saved Stories -->
+<button class="nav-tab flex flex-col items-center justify-center text-on-surface-variant gap-0.5 py-1 px-3 hover:text-on-surface transition-colors duration-150 active:scale-95 ease-out" data-nav="saved">
+<span class="material-symbols-outlined" id="nav-saved-icon">bookmark</span>
+<span class="text-label-caps font-label-caps" id="nav-saved-label">Saved</span>
+</button>
+</nav>
+<!-- COMPLETE INTERACTIVE JAVASCRIPT CONTROLLER -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // -------------------------------------------------------------
+  // TOAST UTILITY
+  // -------------------------------------------------------------
+  const toastContainer = document.getElementById('toast-container');
+  function showToast(message, icon = 'check_circle', duration = 2800) {
+    if (!toastContainer) return;
+    const toast = document.createElement('div');
+    toast.className = 'flex items-center gap-2 px-3.5 py-2 rounded-xl bg-surface-bright/95 text-on-surface text-xs font-medium shadow-2xl border border-surface-variant/80 backdrop-blur-md transition-all duration-300 opacity-0 translate-y-2 pointer-events-auto';
+    toast.innerHTML = `
+      <span class="material-symbols-outlined text-[17px] text-tertiary">${icon}</span>
+      <span>${message}</span>
+    `;
+    toastContainer.appendChild(toast);
+    
+    // Animate in
+    requestAnimationFrame(() => {
+      toast.classList.remove('opacity-0', 'translate-y-2');
+    });
+
+    setTimeout(() => {
+      toast.classList.add('opacity-0', '-translate-y-2');
+      setTimeout(() => toast.remove(), 300);
+    }, duration);
+  }
+
+  // -------------------------------------------------------------
+  // 1. TRILINGUAL LANGUAGE SWITCHER (EN, हिन्दी, বাংলা)
+  // -------------------------------------------------------------
+  const langToggle = document.getElementById('lang-toggle');
+  const translations = {
+    EN: {
+      appTitle: 'India Pulse',
+      audioTitle: '60-Sec Audio Flash',
+      reelsHeader: 'Quick Visual Reels • Metro Updates',
+      catAll: 'All Feed',
+      catTop: 'Top Stories',
+      catSports: 'Sports',
+      catScitech: 'Sci-Tech',
+      catGov: 'Governance',
+      catWeather: 'Weather'
+    },
+    HI: {
+      appTitle: 'भारत पल्स',
+      audioTitle: '60-सेकंड ऑडियो फ्लैश',
+      reelsHeader: 'त्वरित रील्स • महानगर समाचार',
+      catAll: 'सभी खबरें',
+      catTop: 'शीर्ष समाचार',
+      catSports: 'खेल',
+      catScitech: 'विज्ञान-तकनीक',
+      catGov: 'शासन व नीति',
+      catWeather: 'मौसम'
+    },
+    BN: {
+      appTitle: 'ইন্ডিয়া পালস',
+      audioTitle: '৬০-সেকেন্ড অডিও ফ্ল্যাশ',
+      reelsHeader: 'দ্রুত ভিজ্যুয়াল রিল • মেট্রো আপডেট',
+      catAll: 'সমস্ত সংবাদ',
+      catTop: 'প্রধান খবর',
+      catSports: 'খেলাধুলা',
+      catScitech: 'বিজ্ঞান-প্রযুক্তি',
+      catGov: 'প্রশাসন',
+      catWeather: 'আবহাওয়া'
+    }
+  };
+
+  let currentLang = 'EN';
+
+  function updateLanguage(lang) {
+    currentLang = lang;
+    const t = translations[lang] || translations.EN;
+    
+    // Header & Titles
+    const titleEl = document.getElementById('app-title');
+    const audioTitleEl = document.getElementById('audio-widget-title');
+    const reelsHdrEl = document.getElementById('reels-header');
+
+    if (titleEl) titleEl.textContent = t.appTitle;
+    if (audioTitleEl) audioTitleEl.textContent = t.audioTitle;
+    if (reelsHdrEl) reelsHdrEl.textContent = t.reelsHeader;
+
+    // Category pills labels
+    document.querySelectorAll('[data-lang-text]').forEach(el => {
+      const key = el.getAttribute('data-lang-text');
+      if (key === 'cat-all') el.textContent = t.catAll;
+      if (key === 'cat-top') el.textContent = t.catTop;
+      if (key === 'cat-sports') el.textContent = t.catSports;
+      if (key === 'cat-scitech') el.textContent = t.catScitech;
+      if (key === 'cat-gov') el.textContent = t.catGov;
+      if (key === 'cat-weather') el.textContent = t.catWeather;
+    });
+
+    // Swap Card Headlines
+    document.querySelectorAll('.card-headline').forEach(cardHead => {
+      const text = cardHead.getAttribute(`data-${lang.toLowerCase()}`) || cardHead.getAttribute('data-en');
+      if (text) cardHead.textContent = text;
+    });
+
+    // Update pill styles
+    if (langToggle) {
+      langToggle.querySelectorAll('button').forEach(btn => {
+        if (btn.getAttribute('data-lang') === lang) {
+          btn.className = 'px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-bold shadow-sm transition-all';
+        } else {
+          btn.className = 'px-2 py-0.5 rounded-full text-on-surface-variant hover:text-on-surface transition-all';
+        }
+      });
+    }
+
+    showToast(`Switched language to ${lang === 'EN' ? 'English' : (lang === 'HI' ? 'हिन्दी' : 'বাংলা')}`, 'translate');
+  }
+
+  if (langToggle) {
+    langToggle.querySelectorAll('button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        updateLanguage(lang);
+      });
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 2. 60-SEC AUDIO FLASH (Play/Pause, Waveform, Timer, Speed, Card Listen)
+  // -------------------------------------------------------------
+  const btnAudioPlay = document.getElementById('btn-audio-main-play');
+  const audioPlayIcon = document.getElementById('audio-play-icon');
+  const audioStatusBadge = document.getElementById('audio-status-badge');
+  const audioTimer = document.getElementById('audio-timer');
+  const waveformBars = document.querySelectorAll('.waveform-bar');
+  const btnAudioSpeed = document.getElementById('btn-audio-speed');
+  const btnAudioLang = document.getElementById('btn-audio-lang-toggle');
+
+  let isPlaying = false;
+  let audioSeconds = 42;
+  const audioTotal = 60;
+  let audioTimerInterval = null;
+
+  const speeds = ['1x', '1.25x', '1.5x', '2x'];
+  let currentSpeedIndex = 0;
+
+  function formatTime(s) {
+    const mins = String(Math.floor(s / 60)).padStart(2, '0');
+    const secs = String(s % 60).padStart(2, '0');
+    return `${mins}:${secs}`;
+  }
+
+  function startAudioPlayback() {
+    isPlaying = true;
+    if (audioPlayIcon) audioPlayIcon.textContent = 'pause';
+    if (audioStatusBadge) {
+      audioStatusBadge.textContent = 'PLAYING';
+      audioStatusBadge.className = 'px-1.5 py-0.2 rounded bg-tertiary text-on-tertiary text-[9px] font-bold uppercase animate-pulse';
+    }
+    waveformBars.forEach((bar, index) => {
+      bar.classList.add('wave-animating');
+      bar.style.animationDelay = `${(index * 0.08).toFixed(2)}s`;
+      bar.classList.remove('bg-surface-variant');
+      bar.classList.add(index % 2 === 0 ? 'bg-primary-container' : 'bg-tertiary');
+    });
+
+    const speedMultiplier = parseFloat(speeds[currentSpeedIndex]);
+    clearInterval(audioTimerInterval);
+    audioTimerInterval = setInterval(() => {
+      audioSeconds += 1;
+      if (audioSeconds > audioTotal) {
+        audioSeconds = 0;
+      }
+      if (audioTimer) {
+        audioTimer.textContent = `${formatTime(audioSeconds)} / ${formatTime(audioTotal)}`;
+      }
+    }, 1000 / speedMultiplier);
+  }
+
+  function pauseAudioPlayback() {
+    isPlaying = false;
+    clearInterval(audioTimerInterval);
+    if (audioPlayIcon) audioPlayIcon.textContent = 'play_arrow';
+    if (audioStatusBadge) {
+      audioStatusBadge.textContent = 'PAUSED';
+      audioStatusBadge.className = 'px-1.5 py-0.2 rounded bg-secondary-container/30 text-secondary text-[9px] font-bold uppercase';
+    }
+    waveformBars.forEach(bar => {
+      bar.classList.remove('wave-animating');
+    });
+  }
+
+  if (btnAudioPlay) {
+    btnAudioPlay.addEventListener('click', () => {
+      if (isPlaying) {
+        pauseAudioPlayback();
+        showToast('Audio bulletin paused', 'pause');
+      } else {
+        startAudioPlayback();
+        showToast(`Playing audio flash (${speeds[currentSpeedIndex]})`, 'graphic_eq');
+      }
+    });
+  }
+
+  if (btnAudioSpeed) {
+    btnAudioSpeed.addEventListener('click', () => {
+      currentSpeedIndex = (currentSpeedIndex + 1) % speeds.length;
+      btnAudioSpeed.textContent = speeds[currentSpeedIndex];
+      showToast(`Playback speed set to ${speeds[currentSpeedIndex]}`, 'speed');
+      if (isPlaying) {
+        startAudioPlayback();
+      }
+    });
+  }
+
+  if (btnAudioLang) {
+    btnAudioLang.addEventListener('click', () => {
+      const nextLang = currentLang === 'EN' ? 'HI' : (currentLang === 'HI' ? 'BN' : 'EN');
+      updateLanguage(nextLang);
+    });
+  }
+
+  // Card Listen Buttons
+  document.querySelectorAll('.btn-card-listen').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const title = btn.getAttribute('data-title') || 'Article audio recap';
+      const label = btn.querySelector('.listen-label');
+      const icon = btn.querySelector('.audio-card-icon');
+      
+      const isCardPlaying = icon && icon.textContent === 'pause';
+      if (isCardPlaying) {
+        icon.textContent = 'volume_up';
+        if (label) label.textContent = label.getAttribute('data-original') || label.textContent.replace('Playing...', 'Listen');
+        showToast(`Paused audio recap: ${title}`, 'pause');
+      } else {
+        document.querySelectorAll('.btn-card-listen .audio-card-icon').forEach(ic => ic.textContent = 'volume_up');
+        if (icon) icon.textContent = 'pause';
+        if (label) {
+          if (!label.getAttribute('data-original')) label.setAttribute('data-original', label.textContent);
+          label.textContent = 'Playing...';
+        }
+        showToast(`Now streaming: ${title}`, 'volume_up');
+      }
+    });
+  });
+
+  // -------------------------------------------------------------
+  // 3. CATEGORY FILTER CHIPS
+  // -------------------------------------------------------------
+  const catPills = document.querySelectorAll('.cat-pill');
+  const newsCards = document.querySelectorAll('.news-card');
+
+  function filterFeedByCategory(selectedCat) {
+    catPills.forEach(pill => {
+      const cat = pill.getAttribute('data-cat');
+      if (cat === selectedCat) {
+        pill.className = 'cat-pill whitespace-nowrap px-3.5 py-1.5 rounded-full bg-primary-container text-on-primary-container font-bold shadow-sm transition-all active:scale-95';
+      } else {
+        pill.className = 'cat-pill whitespace-nowrap px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface border border-surface-variant transition-all flex items-center gap-1 active:scale-95';
+      }
+    });
+
+    let visibleCount = 0;
+    newsCards.forEach(card => {
+      const cardCats = (card.getAttribute('data-categories') || '').split(' ');
+      if (selectedCat === 'all' || cardCats.includes(selectedCat)) {
+        card.style.display = 'block';
+        card.classList.add('opacity-100');
+        visibleCount++;
+      } else {
+        card.style.display = 'none';
+        card.classList.remove('opacity-100');
+      }
+    });
+
+    showToast(`Showing ${visibleCount} stories in ${selectedCat.toUpperCase()}`, 'filter_alt');
+  }
+
+  catPills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      const cat = pill.getAttribute('data-cat') || 'all';
+      filterFeedByCategory(cat);
+    });
+  });
+
+  // -------------------------------------------------------------
+  // 4. TRENDING HASHTAGS
+  // -------------------------------------------------------------
+  const hashtagBtns = document.querySelectorAll('.hashtag-btn');
+  hashtagBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const tag = btn.getAttribute('data-tag');
+      
+      hashtagBtns.forEach(b => {
+        b.classList.remove('bg-primary-container', 'text-on-primary-container', 'font-bold');
+        b.classList.add('bg-surface-container-high', 'text-on-surface');
+      });
+      btn.classList.add('bg-primary-container', 'text-on-primary-container', 'font-bold');
+      btn.classList.remove('bg-surface-container-high');
+
+      let found = 0;
+      newsCards.forEach(card => {
+        const cardTags = (card.getAttribute('data-tags') || '').split(' ');
+        if (cardTags.includes(tag)) {
+          card.style.display = 'block';
+          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          card.classList.add('ring-2', 'ring-primary-container');
+          setTimeout(() => card.classList.remove('ring-2', 'ring-primary-container'), 1800);
+          found++;
+        } else {
+          card.style.display = 'block';
+        }
+      });
+      showToast(`Filtered by ${btn.textContent} (${found} match)`, 'tag');
+    });
+  });
+
+  // -------------------------------------------------------------
+  // 5. STORY REELS / METRO UPDATES MODAL
+  // -------------------------------------------------------------
+  const reelModal = document.getElementById('reel-modal');
+  const closeReelBtn = document.getElementById('close-reel');
+  const reelModalImg = document.getElementById('reel-modal-img');
+  const reelModalThumb = document.getElementById('reel-modal-thumb');
+  const reelModalCity = document.getElementById('reel-modal-city');
+  const reelModalTag = document.getElementById('reel-modal-tag');
+  const reelModalHeadline = document.getElementById('reel-modal-headline');
+  const reelModalDesc = document.getElementById('reel-modal-desc');
+  const reelLikeBtn = document.getElementById('reel-like-btn');
+  const reelLikeCount = document.getElementById('reel-like-count');
+
+  const cityStoriesData = {
+    Delhi: {
+      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCKJHvrHA5rQUi9UyNGZNGByVMGazWRdReWj4x5nbPpv8UdTS_wiFpU6dVEqzx_RreiUCWjZmgGBO0m--_RkW1pR6P8ilFvowArUDXUtZ9RJQQB1W_GGf5yWj4kZE1unxBTnic8llryPCYY_raYjo6gin_raIsaYDei3I2E7eox2F-mBTXcmnmnygA8hyRvvXOL3KcXdWa4FNYaMIlPmus2VqH5Z-90D8r9qqjkMXZc',
+      tag: 'DELHI NCR TRANSIT',
+      headline: 'DMRC Extends Blue Line Frequency During Peak Hours',
+      desc: 'Delhi Metro announces an additional 42 train trips to manage morning office rush across Rajiv Chowk and Noida Sector 18 hubs.'
+    },
+    Mumbai: {
+      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCC3Y9KE4WDh3oSXjd75wCBuUnkaE452fa1d7N9i4ZD-c0lqQC95FWm0pRKrb6TAVjovr7Tmc1m0bLbqLnqqYNVt1OBH5Kv981ApsfWuoPcheJrVd-l_d0E0XxJl6-oCQ3Uwq6MMBPOtSV-jhG_P5LSwSNbiAgjlQ2yOOxg-30q_6fiwKOapdbmWTcf_VAUc3JQvaQ_epNAnW8KPwpD1BHBnWe1pQNhuph7GpNwZY7g',
+      tag: 'MUMBAI REAL-TIME',
+      headline: 'Marine Drive Lights Up for T20 Champions Victory Parade',
+      desc: 'Over 100,000 cricket enthusiasts gather along the South Mumbai promenade for the open-bus team felicitation ceremony.'
+    },
+    Bengaluru: {
+      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuATzZaAPvi-W9Imk7NvlaPNEywyluJYsBPVN2EMbNLhG-JKjU11Lu0u_fMnlIAGqEUZMEYyrroKwZopTXawQaCH95W_yrYbjCkrb8b0WRNXxOE9fu-PSLGIu8oSyNrIVZk5hd6DR4agYpZpACkqkPmjof_jEYNe8yUhmUP_1r0tZ-pzDVHeoYIF30EakRiOGXYniX2QfV_pgS-Aag9KedAWIXOJWpXxbipEcRRJ7ImS',
+      tag: 'BENGALURU TECH CORRIDOR',
+      headline: 'Outer Ring Road AI Signal Grid Slashes Silk Board Delays',
+      desc: 'Smart traffic corridor sensors deployed at 14 key junctions reduce waiting time by an average of 18 minutes today.'
+    },
+    Kolkata: {
+      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAgl2fyfED7p2YXn7f3miNCD5ZdXWSb_MfY8rOp4ndAUME-m2wszDGPFbYT1weLm3Z6R7c5UkX9nlALxsF35BPRRj00j00VAA1enV5n5X7owjVl3AQD5ZlMhJe6LCpOxhRUHBZlXdA-FdyKgNfJx1PZXEOkzhqLQkSW1CO4iIuJTAP1Wk5GTXqppU2LcXgdO0_xhxgr14D2koaGYoGfr3_C5tw4CoAPTK3GA4AYzFTO',
+      tag: 'KOLKATA CULTURE & COMMUTE',
+      headline: 'Underwater Metro Line Crosses 500,000 Passenger Milestone',
+      desc: 'East-West Metro under the Hooghly river records peak weekend ridership connecting Howrah and Esplanade.'
+    },
+    Chennai: {
+      img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDzPdBbNacaQoNv-uLNvZ3aR69kIif2wJzXfZm2tJSFAFsAGXavZPF-xek5SaxSqDkXShiwqay5ijxAK4gBcJiWiU0r5i42ufwWA_OE0--hjVhm43ODOPR0G79wcakrVU76AcsOKa4SSVj5NBrWD0HJmOk7RUAElOTk8s00Kr6VV70OnCaSP6o8MlIMYIMq5HSFpAKkNpzf9aJZMmpwfUBQ15BbdOxBXhGWIjANZ3dO',
+      tag: 'CHENNAI WEATHER & PORT',
+      headline: 'Chennai Port Handles Record Container Freight in 24 Hours',
+      desc: 'Modernized deep-water automated terminal operations complete seamless clearance for 4,200 cargo units.'
+    }
+  };
+
+  function openCityReel(city) {
+    const data = cityStoriesData[city];
+    if (!data || !reelModal) return;
+    reelModalImg.src = data.img;
+    reelModalThumb.src = data.img;
+    reelModalCity.textContent = `${city} Pulse`;
+    reelModalTag.textContent = data.tag;
+    reelModalHeadline.textContent = data.headline;
+    reelModalDesc.textContent = data.desc;
+    reelModal.classList.remove('hidden');
+  }
+
+  document.querySelectorAll('.city-reel-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const city = btn.getAttribute('data-city');
+      openCityReel(city);
+    });
+  });
+
+  const btnSeeAllReels = document.getElementById('btn-see-all-reels');
+  if (btnSeeAllReels) {
+    btnSeeAllReels.addEventListener('click', (e) => {
+      e.preventDefault();
+      openCityReel('Delhi');
+    });
+  }
+
+  if (closeReelBtn) {
+    closeReelBtn.addEventListener('click', () => {
+      reelModal.classList.add('hidden');
+    });
+  }
+
+  if (reelModal) {
+    reelModal.addEventListener('click', (e) => {
+      if (e.target === reelModal) reelModal.classList.add('hidden');
+    });
+  }
+
+  let reelLiked = false;
+  if (reelLikeBtn) {
+    reelLikeBtn.addEventListener('click', () => {
+      reelLiked = !reelLiked;
+      const count = reelLikeCount ? reelLikeCount : null;
+      if (reelLiked) {
+        reelLikeBtn.classList.add('text-primary');
+        if (count) count.textContent = '1.5k';
+        showToast('Liked city reel update', 'favorite');
+      } else {
+        reelLikeBtn.classList.remove('text-primary');
+        if (count) count.textContent = '1.4k';
+      }
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 6. BOOKMARKS & SAVE FUNCTIONALITY
+  // -------------------------------------------------------------
+  const savedArticles = new Set();
+  const navSavedLabel = document.getElementById('nav-saved-label');
+  const savedViewCount = document.getElementById('saved-view-count');
+
+  function updateSavedBadge() {
+    const count = savedArticles.size;
+    if (navSavedLabel) {
+      navSavedLabel.textContent = count > 0 ? `Saved (${count})` : 'Saved';
+    }
+    if (savedViewCount) {
+      savedViewCount.textContent = `${count} item${count === 1 ? '' : 's'} bookmarked`;
+    }
+  }
+
+  document.querySelectorAll('.btn-bookmark').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const articleId = btn.getAttribute('data-article-id');
+      const icon = btn.querySelector('.material-symbols-outlined');
+      
+      if (savedArticles.has(articleId)) {
+        savedArticles.delete(articleId);
+        btn.classList.remove('text-primary');
+        btn.classList.add('text-on-surface-variant');
+        if (icon) {
+          icon.textContent = 'bookmark';
+          icon.style.fontVariationSettings = "'FILL' 0";
+        }
+        showToast('Article removed from reading list', 'bookmark_border');
+      } else {
+        savedArticles.add(articleId);
+        btn.classList.remove('text-on-surface-variant');
+        btn.classList.add('text-primary');
+        if (icon) {
+          icon.textContent = 'bookmark';
+          icon.style.fontVariationSettings = "'FILL' 1";
+        }
+        showToast('Article saved to reading list', 'bookmark_added');
+      }
+      updateSavedBadge();
+    });
+  });
+
+  // -------------------------------------------------------------
+  // 7. SHARE BUTTONS (Clipboard copy + feedback toast)
+  // -------------------------------------------------------------
+  document.querySelectorAll('.btn-share').forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      const title = btn.getAttribute('data-title') || 'India Pulse News Flash';
+      const shareUrl = window.location.href;
+
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: title,
+            text: `${title} - Read live on India Pulse`,
+            url: shareUrl
+          });
+          showToast('Article shared successfully', 'share');
+          return;
+        } catch (err) {
+          // user cancelled or fallback
+        }
+      }
+
+      if (navigator.clipboard) {
+        try {
+          await navigator.clipboard.writeText(`${title} - ${shareUrl}`);
+          showToast('Link copied to clipboard!', 'content_copy');
+        } catch (err) {
+          showToast('Link ready to share', 'share');
+        }
+      } else {
+        showToast('Link ready to share', 'share');
+      }
+    });
+  });
+
+  // -------------------------------------------------------------
+  // 8. HELPLINE CALL BUTTON
+  // -------------------------------------------------------------
+  const btnHelplineCall = document.getElementById('btn-helpline-call');
+  if (btnHelplineCall) {
+    btnHelplineCall.addEventListener('click', (e) => {
+      e.preventDefault();
+      showToast('Connecting to State Disaster Helpline: 1077...', 'phone_in_talk', 3500);
+      setTimeout(() => {
+        window.location.href = 'tel:1077';
+      }, 700);
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 9. BOTTOM NAVIGATION BAR
+  // -------------------------------------------------------------
+  const navTabs = document.querySelectorAll('.nav-tab');
+  const articlesFeed = document.getElementById('articles-feed');
+  const savedView = document.getElementById('saved-view');
+  const btnBackToFeed = document.getElementById('btn-back-to-feed');
+
+  function switchNavTab(targetNav) {
+    navTabs.forEach(tab => {
+      const isTarget = tab.getAttribute('data-nav') === targetNav;
+      const icon = tab.querySelector('.material-symbols-outlined');
+      if (isTarget) {
+        tab.className = 'nav-tab flex flex-col items-center justify-center text-primary-container font-bold gap-0.5 py-1 px-3 rounded-full bg-surface-container-high/60 active:scale-95 transition-transform duration-100 ease-out';
+        if (icon) icon.style.fontVariationSettings = "'FILL' 1";
+      } else {
+        tab.className = 'nav-tab flex flex-col items-center justify-center text-on-surface-variant gap-0.5 py-1 px-3 hover:text-on-surface transition-colors duration-150 active:scale-95 ease-out';
+        if (icon) icon.style.fontVariationSettings = "'FILL' 0";
+      }
+    });
+
+    if (targetNav === 'saved') {
+      if (articlesFeed) articlesFeed.classList.add('hidden');
+      if (savedView) {
+        savedView.classList.remove('hidden');
+        renderSavedView();
+      }
+      showToast('Showing your saved stories', 'bookmark');
+    } else if (targetNav === 'feed') {
+      if (articlesFeed) articlesFeed.classList.remove('hidden');
+      if (savedView) savedView.classList.add('hidden');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (targetNav === 'radar') {
+      showToast('State Doppler & Civic Radar: Active for 28 States', 'radar');
+      const weatherCard = document.querySelector('[data-categories*="weather"]');
+      if (weatherCard) {
+        weatherCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        weatherCard.classList.add('ring-2', 'ring-primary-container');
+        setTimeout(() => weatherCard.classList.remove('ring-2', 'ring-primary-container'), 1800);
+      }
+    } else if (targetNav === 'audio') {
+      showToast('Opening 60-Sec Hourly Audio Recap', 'graphic_eq');
+      const audioWidget = document.querySelector('section');
+      if (audioWidget) {
+        audioWidget.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (!isPlaying) startAudioPlayback();
+      }
+    }
+  }
+
+  function renderSavedView() {
+    const savedEmpty = document.getElementById('saved-empty-state');
+    if (savedArticles.size === 0) {
+      if (savedEmpty) savedEmpty.style.display = 'block';
+    } else {
+      if (savedEmpty) savedEmpty.style.display = 'none';
+    }
+  }
+
+  navTabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const targetNav = tab.getAttribute('data-nav');
+      switchNavTab(targetNav);
+    });
+  });
+
+  if (btnBackToFeed) {
+    btnBackToFeed.addEventListener('click', () => {
+      switchNavTab('feed');
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 10. NOTIFICATION BELL ICON & MODAL
+  // -------------------------------------------------------------
+  const btnNotif = document.getElementById('btn-notifications');
+  const notifModal = document.getElementById('notif-modal');
+  const closeNotifBtn = document.getElementById('close-notif');
+  const notifBadge = document.getElementById('notif-badge');
+  const btnClearNotif = document.getElementById('btn-clear-notif');
+
+  if (btnNotif && notifModal) {
+    btnNotif.addEventListener('click', () => {
+      notifModal.classList.toggle('hidden');
+      if (!notifModal.classList.contains('hidden') && notifBadge) {
+        notifBadge.classList.add('hidden');
+      }
+    });
+  }
+
+  if (closeNotifBtn && notifModal) {
+    closeNotifBtn.addEventListener('click', () => {
+      notifModal.classList.add('hidden');
+    });
+  }
+
+  if (notifModal) {
+    notifModal.addEventListener('click', (e) => {
+      if (e.target === notifModal) notifModal.classList.add('hidden');
+    });
+  }
+
+  if (btnClearNotif) {
+    btnClearNotif.addEventListener('click', () => {
+      showToast('All notifications marked as read', 'done_all');
+      if (notifModal) notifModal.classList.add('hidden');
+      if (notifBadge) notifBadge.classList.add('hidden');
+    });
+  }
+
+  // Extra button interactivity for 'Route Map & Toll Free' and 'Live Rainfall Map'
+  document.querySelectorAll('.btn-route-map').forEach(btn => {
+    btn.addEventListener('click', () => {
+      showToast('Opening Mumbai Coastal Road live toll-free route map', 'map');
+    });
+  });
+
+  document.querySelectorAll('.btn-rainfall-map').forEach(btn => {
+    btn.addEventListener('click', () => {
+      showToast('Loading IMD Doppler radar satellite rain layer', 'satellite_alt');
+    });
+  });
+
+  document.querySelectorAll('.card-more-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      showToast('Options: Hide story, Report, or Set topic alerts', 'tune');
+    });
+  });
+
+  document.querySelectorAll('.btn-read-more').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      showToast('Opening full wire coverage...', 'article');
+    });
+  });
+});
+</script>
+</body></html>
